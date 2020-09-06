@@ -399,9 +399,9 @@ ol {
   height: 2px;
   background: #00C89E;
   content: "";
-  opacity: 0;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  opacity: 0.5;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
 }
 .hs-nav .hn-social {
   text-align: right;
@@ -435,8 +435,9 @@ ol {
   overflow: visible;
 }
 .hs-slider.owl-carousel .owl-item.active .hs-item .hc-inner-text {
-  opacity: 1;
+  opacity: 0.5;
   top: 0;
+
 }
 .hs-slider.owl-carousel .owl-nav button {
   height: 50px;
@@ -446,7 +447,7 @@ ol {
   line-height: 58px;
   text-align: center;
   font-size: 30px;
-  color: #ffffff;
+  color:black;
   position: absolute;
   left: -80px;
   top: 50%;
@@ -464,7 +465,7 @@ ol {
   height: 780px;
 }
 .hs-item .hc-inner-text {
-  background: #ffffff;
+  background: burlywood;
   padding: 40px;
   overflow: hidden;
   opacity: 0;
