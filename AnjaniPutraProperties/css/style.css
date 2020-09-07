@@ -156,6 +156,9 @@ ol {
   background-size: cover;
   background-position: top center;
 }
+#khargharHomes{
+  background-position: top center; 
+}
 
 .spad {
   padding-top: 100px;
@@ -475,6 +478,8 @@ ol {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
+
+
 .hs-item .hc-inner-text .hc-text {
   float: left;
   margin-right: 18px;
