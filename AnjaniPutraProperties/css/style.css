@@ -997,8 +997,15 @@ ol {
   color: #ffffff;
 }
 .chooseus-text p {
-  color: #ffffff;
-  opacity: 0.7;
+  color:
+  opacity: 0.5;
+}
+#whyChooseBg{
+  background-position: center;
+  
+}
+#whyChooseBg::before{
+  opacity:0.5;
 }
 
 .chooseus-features {
