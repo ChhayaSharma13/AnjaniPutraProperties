@@ -985,6 +985,7 @@ ol {
 -----------------------*/
 .chooseus-section {
   padding-bottom: 55px;
+ color:white;
 }
 
 .chooseus-text {
@@ -997,8 +998,9 @@ ol {
   color: #ffffff;
 }
 .chooseus-text p {
-  color:
-  opacity: 0.5;
+  color:white;
+  font-display: fallback;
+ 
 }
 #whyChooseBg{
   background-position: center;
@@ -1010,6 +1012,10 @@ ol {
 
 .chooseus-features {
   overflow: hidden;
+}
+.chooseus-features::before{
+  opacity:0.3;
+  background-color: blue;
 }
 .chooseus-features .cf-item {
   width: calc(50% - 40px);
@@ -1039,7 +1045,7 @@ ol {
 .chooseus-features .cf-item .cf-text p {
   margin-bottom: 0;
   color: #ffffff;
-  opacity: 0.7;
+  
 }
 
 /*---------------------
